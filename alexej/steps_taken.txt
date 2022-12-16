@@ -1,5 +1,5 @@
-1. Import Modules/Dependencies
-2. Create data frames by reading in the data sources
-3. Create more data frames containing necessary/needed/important data
-3.1 Participants who actually won a medal
-3.2 Participants who have not won a medal
+1.	Import Modules/Dependencies
+2.	Create data frames by reading in the data sources
+3.	Create more data frames containing necessary/needed/important data
+	3.1	Participants who actually won a medal
+	3.2	Participants who have not won a medal
