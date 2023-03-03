@@ -1,72 +1,32 @@
-# Project Name
+# Olympic Athletes
 
-example image:
+This repository contains the code and data for the machine learning model that predicts the winner of Olympic games from Athens 1896 to Rio 2016.
 
+## Project Title
 
-![alternative text](reports/img/pic01.jpg)
+Athens 1896 - Rio 2016: A sprint through the years
 
+## Approach
 
-#### -- Project Status: [Active, On-Hold, Completed]
+The approach taken for this project is Supervised ML.
 
-## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project. Limit to a short paragraph, 3-6 Sentences)
+## Classes
 
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact]
-* If you do not have a partner leave this section out
+The classes used in this project are Gold/Silver/Bronze/NoMedal.
 
-### Methods Used
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
+## Clean Data and Make Decisions
 
-### Technologies
-* R
-* Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc.
+National Olympic Committees (NOC) were used instead of countries. The year column was removed, but not the city column. 
 
-## Project Description
-(Provide more detailed overview of the project.
-Talk a bit about your data sources and what questions and hypothesis you are exploring.
-What specific data analysis/visualization and modelling work are you using to solve the
-problem? What blockers and challenges are you facing?
-Feel free to number or bullet point things here)
+## PyCaret
 
-## Getting Started
+PyCaret was used to find the best models, fix imbalance, check feature importance, and manually tune the selected models.
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
+## Visualize Data
 
-    *If using offline data mention that and how they may obtain the data from the froup)*
+Data was visualized to better understand the insights and develop a story, including fun-facts.
 
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
+## Google Slides
 
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages)
-create another "setup.md" file and link to it here*
+The Google Slides deck for this project can be found [here](https://docs.google.com/presentation/d/15p3W2FVu2SVkIp_EXDeI9Rsoq1fHYQtucUMXpFg-olw/edit?usp=sharing).
 
-5. Follow setup [instructions](Link to file)
-
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
-
-
-## Contributing Members
-
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])**
-
-#### Other Members:
-
- - [Full Name](https://github.com/[github handle])
- - [Full Name](https://github.com/[github handle])
